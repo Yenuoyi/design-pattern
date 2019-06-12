@@ -5,10 +5,11 @@ package decorator;
  */
 public class ManagerA implements Person {
     private Person person;
-    
+
     public ManagerA(Person person) {
         this.person = person;
     }
+
     @Override
     public void doCoding() {
         person.doCoding();

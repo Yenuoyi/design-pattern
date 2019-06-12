@@ -7,6 +7,7 @@ public interface Person {
 
     /**
      * 添加观察者
+     *
      * @param observer
      */
     void addObserver(Observer observer);
@@ -19,6 +20,7 @@ public interface Person {
 
     /**
      * 通知观察者
+     *
      * @param message
      */
     void notice(String message);

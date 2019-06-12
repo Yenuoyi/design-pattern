@@ -1,11 +1,11 @@
 package factory;
 
-public class Square implements Shape{
+public class Square implements Shape {
 
-	@Override
-	public void draw() {
-		System.out.println("����һ��square��");
-		
-	}
+    @Override
+    public void draw() {
+        System.out.println("����һ��square��");
+
+    }
 
 }

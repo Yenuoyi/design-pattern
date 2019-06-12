@@ -5,10 +5,10 @@ package facade;
  */
 public class Run implements Shape {
 
-	@Override
-	public void doing() {
-		System.out.println("Being run!");
-		
-	}
+    @Override
+    public void doing() {
+        System.out.println("Being run!");
+
+    }
 
 }

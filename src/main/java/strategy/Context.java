@@ -1,5 +1,8 @@
 package strategy;
 
+/**
+ * @author yebing
+ */
 public class Context {
 	   private Strategy strategy;
 
