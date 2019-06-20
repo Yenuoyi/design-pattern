@@ -1,9 +1,9 @@
 package factory;
 
 public interface Shape {
-	/**
-	 * draw()
-	 */
-	void draw();
+    /**
+     * draw()
+     */
+    void draw();
 
 }

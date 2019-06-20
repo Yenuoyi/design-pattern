@@ -1,6 +1,7 @@
 package command;
 
 /**
+ * 请求者
  * @author yebing
  */
 public class Stock {

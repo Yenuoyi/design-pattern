@@ -1,15 +1,17 @@
 package duck;
 
 /**
+ * 策略模式
+ *
  * @author yebing
  */
-public class DuckDemo extends Duck{
-    public DuckDemo(){
+public class DuckDemo extends Duck {
+    public DuckDemo() {
         flyDuck = new FlyDuckYes();
         shoutDuck = new ShoutDuckYes();
     }
 
-    public void action(){
+    public void action() {
         head();
         foot();
         wing();
